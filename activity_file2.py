@@ -1,0 +1,5 @@
+file = open('day_11\comments.txt', 'a')
+file.write('this is the second line of this text\n')
+file.close()
+file = open('day_11\comments.txt', 'r')
+print(file.read())
